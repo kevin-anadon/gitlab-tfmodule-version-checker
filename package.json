@@ -1,6 +1,6 @@
 {
   "name": "gitlab-tfmodule-version-checker",
-  "displayName": "gitlab-tfmodule-version-checker",
+  "displayName": "Gitlab Terraform Module Version Checker",
   "publisher": "kevinanadon",
   "description": "Detects Terraform modules in the currently active file",
   "version": "1.0.0",
@@ -10,7 +10,7 @@
     "url": "https://github.com/kevin-anadon/gitlab-tfmodule-version-checker"
   },
   "engines": {
-    "vscode": "^1.118.0"
+    "vscode": "^1.115.0"
   },
   "categories": [
     "Other"
@@ -66,7 +66,7 @@
     "@types/mocha": "^10.0.10",
     "@types/node": "^22.19.18",
     "@types/semver": "^7.7.1",
-    "@types/vscode": "^1.118.0",
+    "@types/vscode": "^1.115.0",
     "@vscode/test-cli": "^0.0.12",
     "@vscode/test-electron": "^2.5.2",
     "eslint": "^9.39.3",
