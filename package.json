@@ -1,6 +1,7 @@
 {
   "name": "gitlab-tfmodule-version-checker",
   "displayName": "gitlab-tfmodule-version-checker",
+  "publisher": "kevinanadon",
   "description": "Detects Terraform modules in the currently active file",
   "version": "0.0.1",
   "icon": "assets/gitlab-tfmodule-version-checker.png",
