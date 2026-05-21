@@ -4,6 +4,10 @@
   "description": "Detects Terraform modules in the currently active file",
   "version": "0.0.1",
   "icon": "assets/gitlab-tfmodule-version-checker.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevin-anadon/gitlab-tfmodule-version-checker"
+  },
   "engines": {
     "vscode": "^1.118.0"
   },
