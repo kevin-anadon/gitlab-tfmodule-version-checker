@@ -1,5 +1,5 @@
 {
-  "name": "gitlab-tfmodule-version-checker",
+  "name": "gitlab-terraform-module-version-checker",
   "displayName": "Gitlab Terraform Module Version Checker",
   "publisher": "kevinanadon",
   "description": "Detects Terraform modules in the currently active file",
