@@ -2,6 +2,8 @@
 
 ![Extension Output](assets/gitlab-tfmodule-version-checker.png)
 
+[VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=KevinAnadon.gitlab-tfmodule-version-checker)
+
 A VS Code extension designed to help teams keep Terraform modules up to date by validating their versions against the GitLab Terraform Module Registry.
 
 This project is structured as a clean, modular, and maintainable extension following VS Code best practices and GitLab’s official Terraform Module Registry API.
