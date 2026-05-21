@@ -1,0 +1,74 @@
+{
+  "name": "gitlab-tfmodule-version-checker",
+  "displayName": "gitlab-tfmodule-version-checker",
+  "description": "Detects Terraform modules in the currently active file",
+  "version": "0.0.1",
+  "icon": "assets/gitlab-tfmodule-version-checker.png",
+  "engines": {
+    "vscode": "^1.115.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+  "commands": [
+    {
+      "command": "gitlab-tfmodule-version-checker.checkVersions",
+      "title": "Terraform: Check GitLab Module Versions"
+    },
+    {
+      "command": "gitlab-tfmodule-version-checker.setToken",
+      "title": "Terraform: Set GitLab Token"
+    },
+    {
+      "command": "gitlab-tfmodule-version-checker.clearToken",
+      "title": "Terraform: Clear GitLab Token"
+    },
+    {
+      "command": "gitlab-tfmodule-version-checker.setGitlabUrl",
+      "title": "Terraform: Set GitLab URL"
+    }
+  ],
+  "menus": {
+    "editor/context": [
+      {
+        "command": "gitlab-tfmodule-version-checker.checkVersions",
+        "when": "editorLangId == terraform"
+      }
+    ]
+  },
+  "configuration": {
+    "title": "Terraform GitLab",
+    "properties": {
+      "gitlab-tfmodule-version-checker.gitlabUrl": {
+        "type": "string",
+        "default": "https://gitlab.com"
+      }
+    }
+  }
+},
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.19.18",
+    "@types/semver": "^7.7.1",
+    "@types/vscode": "^1.118.0",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.39.3",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.1"
+  },
+  "dependencies": {
+    "semver": "^7.8.0"
+  }
+}
