@@ -5,7 +5,7 @@
   "version": "0.0.1",
   "icon": "assets/gitlab-tfmodule-version-checker.png",
   "engines": {
-    "vscode": "^1.115.0"
+    "vscode": "^1.118.0"
   },
   "categories": [
     "Other"
