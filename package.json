@@ -3,7 +3,7 @@
   "displayName": "Gitlab Terraform Module Version Checker",
   "publisher": "kevinanadon",
   "description": "Detects Terraform modules in the currently active file",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "assets/gitlab-tfmodule-version-checker.png",
   "repository": {
     "type": "git",
